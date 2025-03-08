@@ -18,7 +18,7 @@ public class LinearSearchAlgorithm{
             }
         }
         if(find == false){
-            System.out.println("Target value " + target + " is not found");
+            System.out.println("Target value " + target + " 13is not found");
         }
         input.close();
     }
