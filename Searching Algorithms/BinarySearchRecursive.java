@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BinarySearchRecursive {
 
-   public  int binarySearch(int[] arr, int target, int start, int end){
+   public static  int binarySearch(int[] arr, int target, int start, int end){
 
         if(start>end){
             return -1;
@@ -33,15 +33,14 @@ public class BinarySearchRecursive {
         System.out.println("Enter the number you want to find in an array: ");
         int target = scan.nextInt();
 
-        BinarySearchRecursive binary = new BinarySearchRecursive();
-        int result = binary.binarySearch(arr, target, start, end );
+        int result = binarySearch(arr, target, start, end );
 
         if(result != -1){
             System.out.println("Target value " + target + " found at: " + result);
         }
 
         else{
-            System.out.println(target + " Not found in an array");
+            System.out.println(target + " not found in an array");
 
         }
     }
