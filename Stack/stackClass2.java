@@ -1,8 +1,5 @@
 
 import java.util.ArrayList;
-
-//Stack Implementation With Array List
-
 public class stackClass2 {
     class Stack {
       static  ArrayList <Integer> list = new ArrayList<>();
@@ -16,11 +13,9 @@ public class stackClass2 {
         }
 
         public static  int pop(){
-            
             if(isEmpty()){
                 return -1;
             }
-
             int top = list.get(list.size() -1);
             list.remove(list.size() -1);
             return top;

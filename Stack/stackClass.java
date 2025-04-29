@@ -1,5 +1,5 @@
 
-//Stack Implementation With Array List
+//Stack Implementation With Array
 
 public class stackClass {
     static class Node{
@@ -9,7 +9,6 @@ public class stackClass {
         public Node(int data){
             this.data = data;
             next = null;
-
         }
     }
 
@@ -45,7 +44,6 @@ public class stackClass {
             }
             return head.data; 
         }
-
         public static void main(String args[]){
            
             Stack.push(10);
@@ -57,10 +55,6 @@ public class stackClass {
                 System.out.println(Stack.peek());
                 Stack.pop();
             }
-
-
-
-
         }
     }
 }

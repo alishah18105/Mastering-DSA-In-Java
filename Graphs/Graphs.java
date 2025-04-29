@@ -39,7 +39,7 @@ public class Graphs {
         //Print Neighbours Of 3:
         for(int i = 0; i<graph[3].size(); i++){
             Edge e = graph[3].get(i);
-            System.out.println("Neighbours Of 3" +  e.dest);
+            System.out.println("Neighbours Of 3: " +  e.dest);
 
         }
     }
